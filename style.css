@@ -1,0 +1,380 @@
+/* Montserrat Medium */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap");
+body {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+* {
+  font-family: "Monserrat", sans-serif;
+  margin: 0;
+  padding: 5px;
+  box-sizing: border-box;
+}
+nav {
+  margin: 0 auto;
+  width: 80%;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav li {
+  border: 3px solid transparent;
+  list-style: none;
+  cursor: pointer;
+}
+li a:hover {
+  background: whitesmoke;
+  border-radius: 100px;
+}
+.nav-li:hover {
+  color: rgb(85, 0, 173);
+  border-top: 3px rgb(85, 0, 173) solid;
+}
+button {
+  cursor: pointer;
+}
+#language {
+  background: rgba(128, 128, 128, 0.3);
+  border-radius: 15px;
+}
+#language a {
+  color: black;
+}
+#language a:hover {
+  color: rgb(85, 0, 173);
+  transition: 0.3s;
+}
+header {
+  background: url(./assets/img/bg.jpg) fixed center/cover;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  color: rgb(245, 242, 242);
+}
+#logo {
+  text-align: center;
+  width: 100%;
+}
+#logo img {
+  width: 100%;
+  padding: 0;
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  width: 50%;
+}
+.main-header h1 {
+  font-size: 1rem;
+  padding: 10px;
+}
+.main-header button {
+  background: transparent;
+  color: rgb(245, 242, 242);
+  border: rgb(245, 242, 242) solid 1px;
+  width: 50%;
+  align-items: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+#slogan {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 30px;
+}
+#presentation {
+  background: rgb(19, 18, 18);
+  color: rgb(245, 242, 242);
+}
+.icon-container {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.list-icon-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.lip-logo {
+  margin: 0 auto;
+}
+.lip-logo img {
+  width: 100%;
+}
+.list-icon-part h3 {
+  font-size: 0.8rem;
+}
+.list-icon-part p {
+  font-size: 0.7rem;
+  margin: 0 auto;
+  padding: 20px;
+}
+.list-icon-part button {
+  background: transparent;
+  color: rgb(245, 242, 242);
+  border: rgb(245, 242, 242) solid 1px;
+  width: 50%;
+  align-items: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 10px;
+}
+.news-part {
+  background: rgba(128, 128, 128, 0.1);
+}
+.header-news {
+  margin: 0 auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 40px;
+}
+.left-part {
+  text-align: left;
+}
+.left-part h3 {
+  font-weight: 100;
+}
+.left-part p {
+  font-size: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.right-part {
+  margin: 0 auto;
+}
+.right-part button {
+  width: 150px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+.main-news-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-between;
+}
+.new {
+  text-align: left;
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.5fr 0.3fr 1fr 0.2fr;
+}
+.mn-pic img {
+  width: 100%;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.5);
+}
+.new p {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+.link {
+  font-weight: 700;
+  padding: 0;
+  font-size: 0.7rem;
+}
+.contact-container {
+  width: 75%;
+  margin: 0 auto;
+}
+.contact-list {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding: 20px;
+  font-size: 0.7rem;
+  font-weight: 550;
+}
+.list h4 {
+  padding-bottom: 10px;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.list ul {
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+.list li {
+  list-style: none;
+  padding: 10px 0px;
+}
+.list a {
+  width: 100%;
+}
+.list p {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.contact h5 {
+  font-weight: 900;
+  font-size: 0.9rem;
+}
+.contact h6 {
+  font-weight: 900;
+  font-size: 0.7rem;
+}
+.footer-logos {
+  padding: 0px 5px 10px 5px;
+}
+.footer-logos a {
+  color: black;
+  padding: 0;
+}
+.copyright {
+  padding: 10px 5px 0px 5px;
+}
+.contact-medias {
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.medias-text {
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.medias-logos {
+  width: 100%;
+  display: flex;
+}
+.img img {
+  width: 100%;
+}
+footer {
+  color: rgb(245, 242, 242);
+  background: rgb(19, 18, 18);
+}
+footer ul {
+  margin: 0 auto;
+  width: 70%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+/**************** MEDIA QUERY **************************/
+@media screen and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+  .main-header {
+    width: 100%;
+    padding: 30px;
+  }
+  #logo {
+    width: 70%;
+  }
+  .main-header button {
+    display: grid;
+    grid-template-columns: 80% 10%;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 15px;
+  }
+  #slogan {
+    width: 100%;
+    padding: 20px 10px;
+    word-spacing: 2px;
+    font-size: 0.6rem;
+    font-weight: 800;
+  }
+  .icon-container {
+    display: block;
+    width: 100%;
+  }
+  .lip-logo {
+    width: 55%;
+  }
+  .list-icon-part h3 {
+    font-size: 0.8rem;
+  }
+  .list-icon-part p {
+    font-size: 0.7rem;
+    word-spacing: 2px;
+    padding: 10px;
+  }
+  .list-icon-part button {
+    font-size: 0.6rem;
+    padding: 5px;
+  }
+  .header-news {
+    display: block;
+    padding-top: 65px;
+    width: 100%;
+  }
+  .left-part h3 {
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  .left-part p {
+    font-size: 0.5rem;
+    letter-spacing: 0;
+  }
+  .right-part button {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 80% 10%;
+    justify-content: space-around;
+    font-size: 0.6rem;
+    align-items: center;
+  }
+  .main-news-container {
+    display: block;
+    width: 100%;
+  }
+  .mn-pic {
+    margin: 0 auto;
+    width: 50%;
+  }
+  .new {
+    width: 100%;
+    margin: 0 auto;
+    grid-template-rows: 1.5fr 0.3fr 0.5fr 0.2fr;
+    padding: 20px 5px;
+  }
+  .new h4 {
+    font-size: 0.7rem;
+  }
+  .new p {
+    font-size: 0.5rem;
+  }
+  .link a {
+    font-size: 0.5rem;
+    word-spacing: 2px;
+    font-weight: 700;
+  }
+  .info-pratiques {
+    display: none;
+  }
+  footer h3 {
+    font-size: 0.9rem;
+  }
+  footer ul {
+    flex-wrap: wrap;
+  }
+}
